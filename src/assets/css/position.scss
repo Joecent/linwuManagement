@@ -1,0 +1,11 @@
+@import './_pub.scss';
+
+.position-center {
+  @include posi;
+}
+.position-x-center {
+  @include posi($top: 0);
+}
+.position-y-center {
+  @include posi($left: 0);
+}

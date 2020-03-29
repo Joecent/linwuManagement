@@ -1,0 +1,365 @@
+.c-tab{
+  background: #fff;
+  border-radius: 10px;
+  height: 168px;
+  position: absolute;
+  left:50%;
+  bottom:-15%;
+  box-shadow:0px 5px 7px 0px rgba(0, 0, 0, 0.13);
+  transform: translateX(-50%);
+}
+
+.c-tab-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.c-tab-list li{
+    width: 300px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #016BFD;
+    margin-left: 100px;
+    color: #016BFD;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.c-tab-list li.on{
+    background: #016BFD;
+    color: #fff;
+   
+  }
+
+.c-tab .input{
+    margin-top: 20px;
+    position: relative;
+}
+.c-tab .input input{
+   width: 70%;
+   display: block;
+   margin: 0 auto;
+   padding: 10px 80px 10px 5px;
+   border: 1px solid #016BFD;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.input button{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    padding: 10px 20px;
+    border: none;
+    background: #016BFD;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.interests{
+    margin-top: 100px;
+    color: #333
+}
+
+
+
+/* 合伙人权益 */
+
+.interests-list{
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+.interests-list li{
+    box-shadow:0px 5px 7px 0px rgba(0, 0, 0, 0.13);
+}
+
+.interests-list img{
+    width: 100%;
+}
+.interests-con{
+    text-align: center;
+}
+.interests-con .interests-title{
+  font-size: 16px;
+  color: #333;
+  padding: 5px 0;
+}
+
+.interests-cons{
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+/* 四大模板 */
+.Template{
+    color: #333;
+    margin-top: 30px;
+}
+
+.t-hone-titles{
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.t-hone-titles p{
+    font-size: 12px;
+}
+
+.Template-con{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Template-con li{
+    width: 24%;
+    box-shadow:0px 5px 7px 0px rgba(0, 0, 0, 0.13);
+}
+
+.Template-con li img{
+    width: 100%;
+}
+.Template-cons p{
+    font-size: 14px;
+    color: #333333;
+    padding:10px;
+    text-align: justify;
+}
+
+
+/* 操作步骤 */
+.steps{
+    color: #333333;
+    margin-top: 30px;
+    background: #F7F7F7;
+    padding-top: 20px;
+    height: 200px;
+}
+
+.steps-con{
+    width: 800px;
+    margin: 60px auto;
+    /* background: rgb(9, 189, 105); */
+    position: relative
+}
+
+.xian{
+    width: 800px;
+    height: 5px;
+    background: #262B49;
+    margin: 0 auto;
+  
+}
+.steps-po{
+  display: flex;
+  justify-content: space-between;  
+  position: absolute;
+  left: 0;
+  top: -40px;
+}
+
+.steps-po li{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #262B49;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    color: #262B49
+}
+
+
+.steps-po .steps-p{
+    margin-top: 15px;
+}
+
+.steps-list1{
+    margin-left: 160px;
+}
+
+
+
+/* 申请代理商 */
+.Agent{
+   width: 100%;
+   background: url(../img/coop/bg.png) no-repeat;
+   background-size: 100% 100%;
+   padding-bottom: 50px;
+}
+
+.Agent-title{
+    width: 237px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+.Agent-title p{
+    font-size: 18px;
+}
+
+.lianximy{
+  width: 650px;
+  margin: 0 auto;
+}
+
+.contact_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact_txt,.textarea{
+    width: 90%;
+}
+
+.contact_txt input,.textarea textarea{
+    width: 100%;
+    padding: 10px;
+}
+
+.submit1{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background: #016BFD;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+  
+}
+
+
+
+@media (max-width:900px ) {
+    .c-tab{
+        width: 100%;
+        left: 50%;
+        height: 130px;
+        bottom: -20%;
+    }
+    .c-tab-list li{
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .c-tab-list{
+        margin-top: 15px;
+    }
+   
+
+    .interests{
+        margin-top: 130px;
+    }
+
+    .t-hone-titles{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .c-tab .input input{
+        width:100%;
+
+    }
+    .input button{
+        right: 0;
+    }
+
+
+
+
+    .steps{
+       padding: 20px;
+    }
+    .steps-con{
+       width: 100%;
+    }
+
+    .xian{
+        width: 100%;
+    }
+
+    .steps-po{
+       
+    }
+
+    .steps-po li{
+      
+    }
+    .steps-list1 {
+        margin-left: 136px;
+    }
+
+    .lianximy{
+        width: 100%;
+    }
+    .Agent{
+        padding:20px;
+        background-size: cover;
+    }
+}
+
+
+@media (max-width:720px ) {
+    .interests-list{
+        flex-wrap: wrap;
+       
+    }
+
+    .interests-list li{
+        margin-top: 10px;
+        /* width: 49%; */
+    }
+    .interests{
+        margin-top: 100px;
+    }
+
+
+    .Template-con li{
+        width: 49%;
+        margin-top: 10px;
+    }
+
+    .steps{
+        height: auto
+    }
+    .steps-con{
+        width:inherit;
+        padding-bottom: 30px;
+        margin: 30px auto;
+    }
+
+    .xian{
+        width:5px;
+        height: 400px
+    }
+
+    .steps-po{
+        display: inherit;
+        width: 100%;
+    }
+
+    .steps-po li{
+       margin:30px auto;
+    }
+
+    .lianximy{
+        width: 100%;
+    }
+
+    .contact_txt, .textarea{
+        width: 75%;
+    }
+}

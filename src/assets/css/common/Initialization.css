@@ -1,0 +1,116 @@
+body,
+p,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+}
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+	display: block;
+}
+
+body {
+	font-family: 'Microsoft YaHei', 'Segoe UI', Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	line-height: 1.7;
+}
+
+ul {
+	list-style: none;
+}
+
+ul:after{
+	content: "";
+	display: table;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+ol {
+	list-style: none;
+}
+
+img {
+	display: block;
+	border: none
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: inherit;
+	TEXT-DECORATION: none
+}
+
+a:visited {
+	COLOR: inherit;
+	TEXT-DECORATION: none
+}
+
+a:active {
+	COLOR: inherit;
+	text-decoration: none;
+}
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+	line-height: 1.7em;
+}
+
+.clear {
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+
+input:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+*,
+:after,
+:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+#wrapper {
+	margin-top: 60px;
+	min-height: 835px;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 500;
+}

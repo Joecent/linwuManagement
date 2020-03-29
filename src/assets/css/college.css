@@ -1,0 +1,197 @@
+
+.college{
+    padding: 40px 0;
+    position: relative;
+}	
+.college:after{
+    content: "";
+    display: table;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.college .college-right{
+    width: 70%;
+    float: right;
+}
+
+.college .college-right ul li{
+    color: #333333;
+    border-bottom: 1px solid #2f2f38;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+.college-right ul li{
+    /* display: none; */
+}
+
+
+.college .college-right ul li .college-right-title{
+    font-size: 16px;
+}
+
+.college .college-right ul li .college-right-content{
+    font-size: 14px;
+    word-break:break-all;
+}
+
+.college .college-right ul li .college-right-button{
+    
+    }
+
+.college .college-right ul li .college-right-button{
+    margin-top: 15px;
+}
+
+.college .college-right ul li .college-right-button a{
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    background: #016BFD;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.college-left{
+    width: 28%;
+    background: #016bfd;
+    border-radius: 5px;
+    padding: 10px 10px 50px;
+    float: left;
+}
+
+.college-left .college-search input{
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 5px;
+    border-radius: 5px;
+    color: #333333;
+}
+
+.college-screen,
+.college-hotPush{
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #333333;
+}
+
+.college-screen ul{
+    padding:10px 
+}
+.college-hotPush{
+ padding:0 10px 
+}
+
+.accordion {
+    width: 100%;
+    /* max-width: 200px; */
+    /* border: solid 1px #ccc; */
+    background: #FFF;
+}
+
+.accordion>li {
+    border-bottom: 1px solid #ccc
+}
+
+.accordion>li:last-child {
+    border-bottom: none;
+}
+
+.accordion .link {
+    cursor: pointer;
+    display: block;
+    padding: 15px 0;
+    color: #4D4D4D;
+    font-size: 16px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #CCC; */
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li:last-child .link {
+    border-bottom: 0;
+}
+
+.accordion li {
+    cursor: pointer;
+}
+
+.accordion li span {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    font-size: 18px;
+    color: #595959;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion li span img {
+    width: 20px;
+}
+
+.accordion li span.fa-chevron-down {
+    right: 0;
+    left: auto;
+    font-size: 16px;
+}
+
+.accordion li.open .link {
+    color: #016BFD;
+}
+
+.accordion li.open span {
+    color: #016BFD;
+}
+
+.accordion li.open span.fa-chevron-down {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.submenu {
+    display: none;
+    /* background: #f5f5f5; */
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.submenu li a {
+    padding-left: 10px;
+}
+.box{
+    padding-bottom: 5px;
+}
+.box li a{
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+
+@media (max-width:900px ) {
+    .college{
+        padding: 20px 0;
+    }
+    .college-left{
+        float: inherit;
+        width: 100%;
+    }
+
+    .college .college-right{
+        float: inherit;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+  
+}

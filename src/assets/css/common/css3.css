@@ -1,0 +1,46 @@
+/*放大效果*/
+
+.t-enlarge .animation {
+	transition: transform 0.5s ease;
+	-webkit-transition: transform 0.5s ease;
+	-ms-transition: transform 0.5s ease;
+	-moz-transition: transform 0.5s ease;
+}
+
+.t-enlarge:hover .animation {
+	transform: scale(1.2, 1.2);
+	-webkit-transform: scale(1.2, 1.2);
+	-moz-transform: scale(1.2, 1.2);
+	-ms-transform: scale(1.2, 1.2);	
+}
+
+/*显示隐藏*/
+
+.t-show .animation,
+.t-show .animation-top{
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s
+}
+
+.t-show:hover .animation{
+	opacity: 1
+}
+
+.t-show:hover .animation-top{
+	position: absolute;
+	top: 10%;
+	color: #FFFFFF;
+	z-index: 2;
+}
+
+/*背景过度*/
+.t-index-bottom a:hover,
+.t-index-bottom2 a:hover,
+.banner-left .banner-button a:hover{
+	background: none;
+	color: #016BFD;
+	border: 2px solid #016BFD;
+}
+

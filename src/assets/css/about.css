@@ -1,0 +1,200 @@
+.about-con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.about-img img {
+    /* width: 100%; */
+}
+
+.about-rg {
+    color: #333333;
+    padding: 20px;
+}
+
+.about-rg p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.about-p {
+    margin-top: 50px;
+}
+
+.about-p1 {
+    margin-top: 10px;
+    /* text-indent: 0 !important; */
+}
+
+
+
+.Agent {
+    width: 100%;
+    background: url(../img/coop/bg.png) no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 50px;
+}
+
+.Agent-title {
+    /* width: 237px; */
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+
+}
+
+.Agent-title p {
+    font-size: 18px;
+}
+
+.Electronics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_txt1 {
+    margin-left: 17px;
+}
+
+.gjla {
+    width: 100px;
+}
+
+.lianximy {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.contact_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact_txt,
+.textarea {
+    width: 90%;
+}
+
+.contact_txt input,
+.textarea textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+.submit1 {
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background: #016BFD;
+    border: none;
+    color: #fff;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.development {
+    width: 100%;
+    background: #F7F7F7;
+    color: #333333;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.development-img{
+    padding: 0 20px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.development-img img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.deve1 {
+    display: none
+}
+
+.deve {
+    display: block
+}
+
+
+
+
+@media (max-width:900px) {
+
+    .about-con {
+        margin-top: 20px;
+    }
+
+    .about-p {
+        margin-top: 0;
+    }
+
+
+    .lianximy {
+        width: 100%;
+    }
+
+    .Agent {
+        padding: 20px;
+    }
+
+
+    .Agent-title {
+        padding-top: 15px;
+    }
+
+    .deve {
+        display: none
+    }
+
+    .deve1 {
+        display: block;
+        width: 100%;
+    }
+    .development-img{
+        padding: 0 0;
+        width: inherit;
+    }
+    .development{
+        padding:20px;
+    }
+
+    .t-hone-title{
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width:720px) {
+    .about-con {
+        display: inherit
+    }
+
+    .about-rg {
+        padding: 20px 0;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+
+    .Electronics {
+        display: inherit;
+    }
+
+    .contact_txt1 {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,317 @@
+﻿/*按钮的样式*/
+.data_btn{
+	display: inline-block;
+	background-color:white;
+	min-width:50px;
+	height:32px;
+	line-height:32px;
+	font-size:14px;
+	text-align:center;
+	padding:0 5px;
+	border-radius:4px;
+	cursor:pointer;	
+}
+.btn_success{
+	border:1px solid #1cc09E;
+	color:#1cc09E;
+}
+.btn_danger{
+	border:1px solid #E51c23;
+	color:#E51c23;
+}
+.tabpane table,.table{
+	display: table;
+	text-align:center;
+	width:100%;
+	box-sizing:border-box;
+	height:auto;
+	padding:50px;
+	font-size:15px;
+}
+.tabpane table thead,.table .thead{
+	background:#293643;
+	color:#fff;border-radius:4px;
+}
+.tabpane table tr{
+	border-bottom:1px solid #bbb;
+	height:50px;
+}
+.tabpane .table li{
+	border-bottom:1px solid #bbb;
+	line-height:50px;
+	text-align:center;	
+}
+/* .tabpane .table li span{
+	display:inline-block;
+} */
+.paymentInfo-px{
+	position: relative
+}
+
+.paymentInfo-px::before{
+	content: '';
+	height: 30px;
+	width: 5px;
+	background: #2589FF;
+	position: absolute;
+	left: -10px;
+	top: 10px;
+}
+.table .thead span{
+	min-width:10%;
+}
+.table .thead li,.w-content{
+	display:flex;
+	justify-content:space-around;
+	padding-right:70px;
+}
+.table .tabelbody li .td{
+	text-align:center;
+	display:inline-block;
+	min-width:10%;
+}
+.table .tabelbody li .td1 ,.table li .table-li{
+	min-width: 4% !important;
+}
+.table-li1{
+	min-width: 13% !important;
+}
+.tabpane table tbody tr:hover,.table .tabelbody li:hover{
+	background:#eee;
+}
+.tabpane table tr td{
+	margin:0px;padding:5px 0px;
+	text-align:center;
+	min-width:58px
+}
+.tabpane .table .mobile,.tabpane .table li .mobile{/*PC端表头显示tabelheader*/
+	display:none
+}
+.tabpane table .min_width,.tabpane .table .min_width{/*描述类的*/
+	min-width:120px;
+	max-width: 240px;
+	overflow: hidden;
+	white-space:nowrap;
+    text-overflow: ellipsis;
+	line-height: 50px;
+	margin: 0 auto;
+}
+.tabpane .table .min_width2{/*描述类的*/
+	min-width:120px;
+	width: 240px;
+	overflow: hidden;
+	white-space:nowrap;
+    text-overflow: ellipsis;
+	line-height: 50px;
+	/* margin: 0 auto; */
+}
+
+.paymentInfo{
+	display:none;
+	padding-left:5%;
+	text-align:left;
+	width:100%
+}
+.paymentInfo span{
+	display:inline-block;
+	margin-left:30px;
+}
+.paymentInfo span:nth-child(1){
+	display:inline-block;
+	margin-left:20px;
+}
+.table .tabelbody li .details{
+	display:none;
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	align-items: center;
+}
+.block-box{
+	display: flex;
+	align-items: center;
+}
+.min-td{
+	overflow:hidden;
+	text-overflow:ellipsis; 
+	white-space:nowrap; 
+	max-width: 10%;
+}
+.demonstration .el-button{
+	display: none
+  }
+.pages{
+	text-align:right;
+	margin-top:20px;
+}
+.imgUrl{
+	margin:0 auto;
+	height:32px
+}
+
+/* 分页样式 */
+.el-pager li ,.el-pagination .btn-next, .el-pagination .btn-prev{
+	background: inherit;
+}
+
+.el-pagination button:disabled{
+	background-color: inherit
+}
+/*列表为空样式*/
+.empty{
+		width:auto;
+	  	font-size:16px;
+	  	margin-top:20px;
+		color:#aaa;
+		display:flex;
+		padding:10px;
+	}
+@media(max-width:1200px){
+	.table .thead li,.w-content{
+	display:flex;
+	justify-content:space-around
+}
+.w-content{
+	padding-right:0px;
+}
+}
+@media(max-width:900px){	
+	.min-td{
+		width:auto;
+		max-width:100%;
+	}
+	.tabpane .table .thead li,.tabpane .w-content{
+		padding-right:0px;
+	}
+	.tabpane .tabpane table,.tabpane .tabel{
+		font-size:14px;
+	}
+	.tabpane .table .tabelbody li{
+		line-height:auto;
+		padding:10px;
+	}	
+	.w-content,.table .tabelbody li .details{
+		display:block;
+	}
+	.tabpane .table .tabelbody li{
+		line-height:auto;
+		/* padding:10px; */
+	}		
+	.tabpane .w-content,.table .tabelbody li .details{
+		display:block;
+	}
+
+	.tabpane .table .mobile,.tabpane .table li .mobile{/*移动端表头显示mobile*/
+		display:inline-block;
+		margin-right:15px;
+		width:35%;
+		text-align:left;
+	}
+	.tabpane .table li{
+		line-height:24px;
+	}
+	.paymentInfo{
+		padding-left: 0;
+	}	
+	.paymentInfo-px::before{
+		width: 0;
+	}
+	.paymentInfo span{
+		margin-left: 0;
+	}
+	.paymentInfo span{
+		display:flex;
+		width:100%;
+		/* justify-content:center */
+	}
+	.table .value_right,.table .value_right{
+		text-align:left;
+		width:50%;
+		overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+	}
+	.table .tabelheader,.tabpane .table .thead{
+		display:none;
+	}
+	.tabpane .table tr{
+		height:auto;
+	}
+	.tabpane .table tr td{
+		display:flex;
+		justify-content:flex-start;
+		margin:8px 0 5px
+	}
+	.tabpane .table .tabelbody li .td{
+		display:flex;
+		min-width:auto;
+		margin:8px 0 5px;
+		width:100%
+	}
+	.tabpane .table tr .last_btn,.table .last_btn{
+		margin:15px;
+		display:flex;
+		justify-content:center;
+	}
+	.tabpane .table .last_btn{
+		margin:15px;
+		display:flex;
+		justify-content:center;
+	}
+	.last_btn div{
+		margin-right:10px
+	}	
+	.tabpane table .min_width{
+		width:auto;
+		padding:0px;
+		max-width: inherit;
+		display: flex;
+		line-height: 2;
+	}
+	.table .tabelbody li .arrow{
+		display:flex;
+		justify-content:flex-end;
+	}
+
+	.block{
+		display: block
+	}
+	.demonstration{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 15px;
+		align-items: center;
+		font-size: 12px;
+	}
+	.block-box{
+		display: block
+	}
+	.demonstration .el-input__icon{
+		line-height: 34px;
+	}
+	.paymentInfo span:nth-child(1){
+		margin-left:0;
+	}
+	.pages{
+		text-align:center;
+		margin-top:20px;
+	}
+	.table .imgUrl{
+		width:32px;
+		margin:0
+	}
+
+	.tabpane .table .min_width{
+		max-width: inherit;
+		padding: 0
+	}
+
+
+	.tabpane .table .min_width2{
+	   padding: 0;
+	   line-height: inherit
+	}
+}
+
