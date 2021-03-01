@@ -18,7 +18,7 @@
     "dev-server": "0.0.2",
     "jquery": "^3.3.1",
     "store": "^2.0.12",
-    "three": "^0.85.2",
+    "three": "^0.125.0",
     "vue": "^2.5.2",
     "vue-kindeditor": "^0.3.0",
     "vue-router": "^3.0.1",
